@@ -1,4 +1,9 @@
 ## Training
+Create the conda environment with:
+```bash
+conda env create --prefix ./local_venv -f environment.yml
+```
+Then run
 ```bash
 python train_segmentation.py [--options, see train_segmentation.py arguments]
 ```

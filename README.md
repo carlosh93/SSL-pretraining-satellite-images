@@ -1,7 +1,7 @@
 ## Training
 Create the conda environment with:
 ```bash
-conda env create --prefix ./local_venv -f environment.yml
+conda env create --prefix ./local_venv -f environment.yaml
 ```
 Then run
 ```bash

@@ -1,3 +1,26 @@
+## Training
+```bash
+python train_segmentation.py [--options, see train_segmentation.py arguments]
+```
+Default paramenters:
+- dataset: "landcoverai"
+- train-mode: "SSL4EO-pretrain"
+- epochs: 100
+- batch-size: 32
+- workers: 4
+- segmentation model: "deeplabv3+", more models [here](https://github.com/qubvel/segmentation_models.pytorch#architectures).
+- segmentation loss: cross entropy
+- segmentation backbone: resnet50, more backbones [here](https://github.com/qubvel/segmentation_models.pytorch#encoders)
+- encoder weights: ResNet50_Weights.SENTINEL2_RGB_MOCO, more ssl pretrained weights [here](https://torchgeo.readthedocs.io/en/stable/api/models.html#resnet)
+
+### My Wandb Logs:
+- SSL4EO-pretrain: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/zzmh6azv (Running April 1, 4:00 PM)
+- SSL4EO-pretrain-finetune: 
+- imagenet-pretrain: 
+
+Followed similar configuration described [here](https://github.com/microsoft/torchgeo/blob/main/conf/landcoverai.yaml)
+
+## Troubleshooting
 Maybe you will meet with this issue: https://github.com/microsoft/torchgeo/issues/1143
 If so, and/or you want to use WandB logger, you need to do the following steps:
 Go to `local_venv/lib/python3.10/site-packages/torchgeo/trainers/segmentation.py` 

@@ -19,8 +19,8 @@ Default paramenters:
 - encoder weights: ResNet50_Weights.SENTINEL2_RGB_MOCO, more ssl pretrained weights [here](https://torchgeo.readthedocs.io/en/stable/api/models.html#resnet)
 
 ### My Wandb Logs:
-- SSL4EO-pretrain: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/zzmh6azv (Running April 1, 4:00 PM)
-- SSL4EO-pretrain-finetune: 
+- SSL4EO-pretrain: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/zzmh6azv
+- SSL4EO-pretrain-finetune: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/aa4vwyr0
 - imagenet-pretrain: 
 
 Followed similar configuration described [here](https://github.com/microsoft/torchgeo/blob/main/conf/landcoverai.yaml)

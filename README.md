@@ -21,7 +21,7 @@ Default paramenters:
 ### My Wandb Logs:
 - SSL4EO-pretrain: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/zzmh6azv
 - SSL4EO-pretrain-finetune: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/aa4vwyr0
-- imagenet-pretrain: 
+- imagenet-pretrain: https://wandb.ai/carlosh93/SSL-Pretraining-Satellite-Images/runs/6tsrm0ol
 
 Followed similar configuration described [here](https://github.com/microsoft/torchgeo/blob/main/conf/landcoverai.yaml)
 
